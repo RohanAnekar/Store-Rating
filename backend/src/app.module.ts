@@ -18,8 +18,8 @@ import { AdminModule } from './admin/admin.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'prathmesh',
-      database: 'store_rating_db',
+      password: 'newpassword',
+      database: 'store_db',
       entities: [User, Store, Rating], // ✅ Include all entities here
       synchronize: true, // Set to false in production
     }),

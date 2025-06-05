@@ -16,7 +16,7 @@ function Home() {
           <Link to="/register" className="btn btn-outline-success btn-lg">
             User Register
           </Link>
-          <Link to="/admin-login" className="btn btn-dark btn-lg">
+          <Link to="/admin-login" className="btn btn-outline-info btn-lg">
             Admin Login
           </Link>
         </div>
